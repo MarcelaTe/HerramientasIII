@@ -1,0 +1,15 @@
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\bin\Debug\diseño_de_interface_grafica.exe.config
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\bin\Debug\diseño_de_interface_grafica.exe
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\bin\Debug\diseño_de_interface_grafica.pdb
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\bin\Debug\MaterialSkin.dll
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.csproj.AssemblyReference.cache
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.csproj.SuggestedBindingRedirects.cache
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Login.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Properties.Resources.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.csproj.GenerateResource.cache
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.csproj.CoreCompileInputs.cache
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.csproj.CopyComplete
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.exe
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.pdb
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Principal.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Clientes.resources
