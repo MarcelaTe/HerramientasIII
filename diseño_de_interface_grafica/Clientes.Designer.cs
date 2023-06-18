@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblClientes = new MaterialSkin.Controls.MaterialLabel();
             this.TxtClientes = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.TxtDocumento = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.TxtDireccion = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -39,27 +38,15 @@
             this.BtnEliminar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.TxtBuscarClien = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.BtnBuscarCliente = new MaterialSkin.Controls.MaterialRaisedButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.BtnBuscarCliente = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.TxtBuscarClien = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.BtnGuardar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblClientes
-            // 
-            this.lblClientes.AutoSize = true;
-            this.lblClientes.Depth = 0;
-            this.lblClientes.Font = new System.Drawing.Font("Roboto", 11F);
-            this.lblClientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblClientes.Location = new System.Drawing.Point(287, 9);
-            this.lblClientes.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lblClientes.Name = "lblClientes";
-            this.lblClientes.Size = new System.Drawing.Size(192, 19);
-            this.lblClientes.TabIndex = 0;
-            this.lblClientes.Text = "Administración De Clientes";
             // 
             // TxtClientes
             // 
@@ -149,6 +136,7 @@
             // 
             // BtnCrear
             // 
+            this.BtnCrear.AutoSize = true;
             this.BtnCrear.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BtnCrear.Depth = 0;
             this.BtnCrear.Icon = null;
@@ -156,13 +144,14 @@
             this.BtnCrear.MouseState = MaterialSkin.MouseState.HOVER;
             this.BtnCrear.Name = "BtnCrear";
             this.BtnCrear.Primary = true;
-            this.BtnCrear.Size = new System.Drawing.Size(103, 36);
+            this.BtnCrear.Size = new System.Drawing.Size(64, 36);
             this.BtnCrear.TabIndex = 6;
             this.BtnCrear.Text = "Crear ";
             this.BtnCrear.UseVisualStyleBackColor = true;
             // 
             // BtnActualizar
             // 
+            this.BtnActualizar.AutoSize = true;
             this.BtnActualizar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BtnActualizar.Depth = 0;
             this.BtnActualizar.Icon = null;
@@ -177,6 +166,7 @@
             // 
             // BtnEliminar
             // 
+            this.BtnEliminar.AutoSize = true;
             this.BtnEliminar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BtnEliminar.Depth = 0;
             this.BtnEliminar.Icon = null;
@@ -184,7 +174,7 @@
             this.BtnEliminar.MouseState = MaterialSkin.MouseState.HOVER;
             this.BtnEliminar.Name = "BtnEliminar";
             this.BtnEliminar.Primary = true;
-            this.BtnEliminar.Size = new System.Drawing.Size(103, 36);
+            this.BtnEliminar.Size = new System.Drawing.Size(83, 36);
             this.BtnEliminar.TabIndex = 8;
             this.BtnEliminar.Text = "Eliminar";
             this.BtnEliminar.UseVisualStyleBackColor = true;
@@ -211,6 +201,29 @@
             this.panel2.Size = new System.Drawing.Size(743, 246);
             this.panel2.TabIndex = 10;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(20, 85);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(707, 142);
+            this.dataGridView1.TabIndex = 9;
+            // 
+            // BtnBuscarCliente
+            // 
+            this.BtnBuscarCliente.AutoSize = true;
+            this.BtnBuscarCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BtnBuscarCliente.Depth = 0;
+            this.BtnBuscarCliente.Icon = null;
+            this.BtnBuscarCliente.Location = new System.Drawing.Point(624, 19);
+            this.BtnBuscarCliente.MouseState = MaterialSkin.MouseState.HOVER;
+            this.BtnBuscarCliente.Name = "BtnBuscarCliente";
+            this.BtnBuscarCliente.Primary = true;
+            this.BtnBuscarCliente.Size = new System.Drawing.Size(74, 36);
+            this.BtnBuscarCliente.TabIndex = 8;
+            this.BtnBuscarCliente.Text = "Buscar";
+            this.BtnBuscarCliente.UseVisualStyleBackColor = true;
+            // 
             // TxtBuscarClien
             // 
             this.TxtBuscarClien.Depth = 0;
@@ -228,59 +241,52 @@
             this.TxtBuscarClien.TabStop = false;
             this.TxtBuscarClien.UseSystemPasswordChar = false;
             // 
-            // BtnBuscarCliente
-            // 
-            this.BtnBuscarCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BtnBuscarCliente.Depth = 0;
-            this.BtnBuscarCliente.Icon = null;
-            this.BtnBuscarCliente.Location = new System.Drawing.Point(624, 19);
-            this.BtnBuscarCliente.MouseState = MaterialSkin.MouseState.HOVER;
-            this.BtnBuscarCliente.Name = "BtnBuscarCliente";
-            this.BtnBuscarCliente.Primary = true;
-            this.BtnBuscarCliente.Size = new System.Drawing.Size(103, 36);
-            this.BtnBuscarCliente.TabIndex = 8;
-            this.BtnBuscarCliente.Text = "Buscar";
-            this.BtnBuscarCliente.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(20, 85);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(707, 142);
-            this.dataGridView1.TabIndex = 9;
-            // 
             // BtnGuardar
             // 
+            this.BtnGuardar.AutoSize = true;
             this.BtnGuardar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BtnGuardar.Depth = 0;
             this.BtnGuardar.Icon = null;
-            this.BtnGuardar.Location = new System.Drawing.Point(875, 661);
+            this.BtnGuardar.Location = new System.Drawing.Point(875, 664);
             this.BtnGuardar.MouseState = MaterialSkin.MouseState.HOVER;
             this.BtnGuardar.Name = "BtnGuardar";
             this.BtnGuardar.Primary = true;
-            this.BtnGuardar.Size = new System.Drawing.Size(74, 36);
+            this.BtnGuardar.Size = new System.Drawing.Size(84, 36);
             this.BtnGuardar.TabIndex = 11;
             this.BtnGuardar.Text = "Guardar";
             this.BtnGuardar.UseVisualStyleBackColor = true;
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.Location = new System.Drawing.Point(366, 13);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(185, 19);
+            this.materialLabel1.TabIndex = 12;
+            this.materialLabel1.Text = "Administrador De Clientes";
             // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1035, 712);
+            this.ClientSize = new System.Drawing.Size(1035, 739);
+            this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.BtnGuardar);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.BtnEliminar);
             this.Controls.Add(this.BtnActualizar);
             this.Controls.Add(this.BtnCrear);
-            this.Controls.Add(this.lblClientes);
             this.Name = "Clientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -288,8 +294,6 @@
         }
 
         #endregion
-
-        private MaterialSkin.Controls.MaterialLabel lblClientes;
         private MaterialSkin.Controls.MaterialSingleLineTextField TxtClientes;
         private MaterialSkin.Controls.MaterialSingleLineTextField TxtDocumento;
         private MaterialSkin.Controls.MaterialSingleLineTextField TxtDireccion;
@@ -304,5 +308,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private MaterialSkin.Controls.MaterialRaisedButton BtnBuscarCliente;
         private MaterialSkin.Controls.MaterialRaisedButton BtnGuardar;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
     }
 }

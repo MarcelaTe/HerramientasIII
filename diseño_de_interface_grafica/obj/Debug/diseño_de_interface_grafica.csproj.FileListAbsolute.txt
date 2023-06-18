@@ -13,3 +13,12 @@ C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica
 C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.pdb
 C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Principal.resources
 C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Clientes.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Productos.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Categorias.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Facturas.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Informes.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Empleado.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Roles.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Seguridad.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Acerca.resources
+C:\Users\adan2\Desktop\diseño_de_interface_grafica\diseño_de_interface_grafica\obj\Debug\diseño_de_interface_grafica.Ayuda.resources
