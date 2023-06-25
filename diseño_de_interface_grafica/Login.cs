@@ -35,7 +35,7 @@ namespace diseño_de_interface_grafica
             if (nombreUsuario == "admin" && contraseña == "admin")
             {
                 // Mostrar la vista principal
-                Principal principal = new Principal();
+                Principal1 principal = new Principal1();
                 principal.Show();
                 this.Hide();
             }

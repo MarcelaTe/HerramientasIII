@@ -12,9 +12,9 @@ using MaterialSkin.Controls;
 
 namespace diseño_de_interface_grafica
 {
-    public partial class Principal : MaterialForm
+    public partial class Principal1 : MaterialForm
     {
-        public Principal()
+        public Principal1()
         {
             InitializeComponent();
         }
@@ -29,38 +29,29 @@ namespace diseño_de_interface_grafica
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        //mostrar formulario clientes
-        private void BtnClientes_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            // Crear una instancia de la vista de clientes
-            Clientes vistaClientes = new Clientes();
-
-            // Configurar el tamaño y la posición de la vista de clientes para que se ajuste al panel contenedor
-            vistaClientes.TopLevel = false;
-            vistaClientes.FormBorderStyle = FormBorderStyle.None;
-            vistaClientes.Dock = DockStyle.Fill;
-
-            // Agregar la vista de clientes al panel contenedor
-            pnlContenedor.Controls.Clear(); // Limpiar el contenido previo del panel
-            pnlContenedor.Controls.Add(vistaClientes);
-
-            // Mostrar la vista de clientes
-            vistaClientes.Show();
+            Application.Exit();
         }
 
-        private void TapObcionesMenu_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void btnProductos_Click(object sender, EventArgs e)
@@ -81,7 +72,7 @@ namespace diseño_de_interface_grafica
             vistaProductos.Show();
         }
 
-        private void btnCategorias_Click(object sender, EventArgs e)
+        private void btnCategorias_Click_1(object sender, EventArgs e)
         {
             // Crear una instancia de la vista de categorias
             Categorias vistaCategorias = new Categorias();
@@ -99,7 +90,25 @@ namespace diseño_de_interface_grafica
             vistaCategorias.Show();
         }
 
-        private void btnFacturas_Click(object sender, EventArgs e)
+        private void btnClientes_Click_1(object sender, EventArgs e)
+        {
+            // Crear una instancia de la vista de clientes
+            Clientes vistaClientes = new Clientes();
+
+            // Configurar el tamaño y la posición de la vista de clientes para que se ajuste al panel contenedor
+            vistaClientes.TopLevel = false;
+            vistaClientes.FormBorderStyle = FormBorderStyle.None;
+            vistaClientes.Dock = DockStyle.Fill;
+
+            // Agregar la vista de clientes al panel contenedor
+            pnlContenedor.Controls.Clear(); // Limpiar el contenido previo del panel
+            pnlContenedor.Controls.Add(vistaClientes);
+
+            // Mostrar la vista de clientes
+            vistaClientes.Show();
+        }
+
+        private void btnFacturación_Click(object sender, EventArgs e)
         {
             // Crear una instancia de la vista de facturas
             Facturas vistaFacturas = new Facturas();
@@ -117,7 +126,7 @@ namespace diseño_de_interface_grafica
             vistaFacturas.Show();
         }
 
-        private void btnInformes_Click(object sender, EventArgs e)
+        private void btnInformes_Click_1(object sender, EventArgs e)
         {
             // Crear una instancia de la vista de informes
             Informes vistaInformes = new Informes();
@@ -135,43 +144,7 @@ namespace diseño_de_interface_grafica
             vistaInformes.Show();
         }
 
-        private void btnEmpleados_Click(object sender, EventArgs e)
-        {
-            // Crear una instancia de la vista de empleados
-            Empleado vistaEmpleados = new Empleado();
-
-            // Configurar el tamaño y la posición de la vista de empleados para que se ajuste al panel contenedor
-            vistaEmpleados.TopLevel = false;
-            vistaEmpleados.FormBorderStyle = FormBorderStyle.None;
-            vistaEmpleados.Dock = DockStyle.Fill;
-
-            // Agregar la vista de empleados al panel contenedor
-            pnlContenedor.Controls.Clear(); // Limpiar el contenido previo del panel
-            pnlContenedor.Controls.Add(vistaEmpleados);
-
-            // Mostrar la vista de empleados
-            vistaEmpleados.Show();
-        }
-
-        private void btnRoles_Click(object sender, EventArgs e)
-        {
-            // Crear una instancia de la vista de roles
-            Roles vistaRoles = new Roles();
-
-            // Configurar el tamaño y la posición de la vista de roles para que se ajuste al panel contenedor
-            vistaRoles.TopLevel = false;
-            vistaRoles.FormBorderStyle = FormBorderStyle.None;
-            vistaRoles.Dock = DockStyle.Fill;
-
-            // Agregar la vista de roles al panel contenedor
-            pnlContenedor.Controls.Clear(); // Limpiar el contenido previo del panel
-            pnlContenedor.Controls.Add(vistaRoles);
-
-            // Mostrar la vista de roles
-            vistaRoles.Show();
-        }
-
-        private void btnSeguridad_Click(object sender, EventArgs e)
+        private void btnSeguridad_Click_1(object sender, EventArgs e)
         {
             // Crear una instancia de la vista de seguridad
             Seguridad vistaSeguridad = new Seguridad();
@@ -189,7 +162,43 @@ namespace diseño_de_interface_grafica
             vistaSeguridad.Show();
         }
 
-        private void btnAyuda_Click(object sender, EventArgs e)
+        private void btnRoles_Click_1(object sender, EventArgs e)
+        {
+            // Crear una instancia de la vista de roles
+            Roles vistaRoles = new Roles();
+
+            // Configurar el tamaño y la posición de la vista de roles para que se ajuste al panel contenedor
+            vistaRoles.TopLevel = false;
+            vistaRoles.FormBorderStyle = FormBorderStyle.None;
+            vistaRoles.Dock = DockStyle.Fill;
+
+            // Agregar la vista de roles al panel contenedor
+            pnlContenedor.Controls.Clear(); // Limpiar el contenido previo del panel
+            pnlContenedor.Controls.Add(vistaRoles);
+
+            // Mostrar la vista de roles
+            vistaRoles.Show();
+        }
+
+        private void btnEmpleados_Click_1(object sender, EventArgs e)
+        {
+            // Crear una instancia de la vista de empleados
+            Empleado vistaEmpleados = new Empleado();
+
+            // Configurar el tamaño y la posición de la vista de empleados para que se ajuste al panel contenedor
+            vistaEmpleados.TopLevel = false;
+            vistaEmpleados.FormBorderStyle = FormBorderStyle.None;
+            vistaEmpleados.Dock = DockStyle.Fill;
+
+            // Agregar la vista de empleados al panel contenedor
+            pnlContenedor.Controls.Clear(); // Limpiar el contenido previo del panel
+            pnlContenedor.Controls.Add(vistaEmpleados);
+
+            // Mostrar la vista de empleados
+            vistaEmpleados.Show();
+        }
+
+        private void btnAyuda_Click_1(object sender, EventArgs e)
         {
             // Crear una instancia de la vista de ayuda
             Ayuda vistaAyuda = new Ayuda();
@@ -207,7 +216,7 @@ namespace diseño_de_interface_grafica
             vistaAyuda.Show();
         }
 
-        private void btnAcerca_Click(object sender, EventArgs e)
+        private void btnAcerca_Click_1(object sender, EventArgs e)
         {
             // Crear una instancia de la vista de acerca de
             Acerca vistaAcerca = new Acerca();
