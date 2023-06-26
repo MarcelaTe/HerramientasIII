@@ -73,6 +73,7 @@
     <Compile Include="Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConnectionDB.cs" />
     <Compile Include="Empleado.cs">
       <SubType>Form</SubType>
     </Compile>

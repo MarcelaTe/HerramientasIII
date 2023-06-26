@@ -42,9 +42,9 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.TxtProductos = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.TxtEmpleado = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.TxtCodigo = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.TxtCompra = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.TxtSexo = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.BtnEliminar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.BtnActualizar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.BtnCrear = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -79,9 +79,9 @@
             this.Categoria.Controls.Add(this.monthCalendar1);
             this.Categoria.Controls.Add(this.materialLabel2);
             this.Categoria.Controls.Add(this.comboBox1);
-            this.Categoria.Controls.Add(this.TxtProductos);
+            this.Categoria.Controls.Add(this.TxtEmpleado);
             this.Categoria.Controls.Add(this.TxtCodigo);
-            this.Categoria.Controls.Add(this.TxtCompra);
+            this.Categoria.Controls.Add(this.TxtSexo);
             this.Categoria.Location = new System.Drawing.Point(42, 42);
             this.Categoria.Name = "Categoria";
             this.Categoria.Size = new System.Drawing.Size(772, 891);
@@ -237,22 +237,22 @@
             this.comboBox1.TabIndex = 10;
             this.comboBox1.Text = "Escolaridad";
             // 
-            // TxtProductos
+            // TxtEmpleado
             // 
-            this.TxtProductos.Depth = 0;
-            this.TxtProductos.Hint = "Nombre Empledo";
-            this.TxtProductos.Location = new System.Drawing.Point(20, 31);
-            this.TxtProductos.MaxLength = 32767;
-            this.TxtProductos.MouseState = MaterialSkin.MouseState.HOVER;
-            this.TxtProductos.Name = "TxtProductos";
-            this.TxtProductos.PasswordChar = '\0';
-            this.TxtProductos.SelectedText = "";
-            this.TxtProductos.SelectionLength = 0;
-            this.TxtProductos.SelectionStart = 0;
-            this.TxtProductos.Size = new System.Drawing.Size(332, 23);
-            this.TxtProductos.TabIndex = 1;
-            this.TxtProductos.TabStop = false;
-            this.TxtProductos.UseSystemPasswordChar = false;
+            this.TxtEmpleado.Depth = 0;
+            this.TxtEmpleado.Hint = "Nombre Empledo";
+            this.TxtEmpleado.Location = new System.Drawing.Point(20, 31);
+            this.TxtEmpleado.MaxLength = 32767;
+            this.TxtEmpleado.MouseState = MaterialSkin.MouseState.HOVER;
+            this.TxtEmpleado.Name = "TxtEmpleado";
+            this.TxtEmpleado.PasswordChar = '\0';
+            this.TxtEmpleado.SelectedText = "";
+            this.TxtEmpleado.SelectionLength = 0;
+            this.TxtEmpleado.SelectionStart = 0;
+            this.TxtEmpleado.Size = new System.Drawing.Size(332, 23);
+            this.TxtEmpleado.TabIndex = 1;
+            this.TxtEmpleado.TabStop = false;
+            this.TxtEmpleado.UseSystemPasswordChar = false;
             // 
             // TxtCodigo
             // 
@@ -272,22 +272,22 @@
             this.TxtCodigo.UseSystemPasswordChar = false;
             this.TxtCodigo.Click += new System.EventHandler(this.TxtCodigo_Click);
             // 
-            // TxtCompra
+            // TxtSexo
             // 
-            this.TxtCompra.Depth = 0;
-            this.TxtCompra.Hint = "Sexo";
-            this.TxtCompra.Location = new System.Drawing.Point(20, 117);
-            this.TxtCompra.MaxLength = 32767;
-            this.TxtCompra.MouseState = MaterialSkin.MouseState.HOVER;
-            this.TxtCompra.Name = "TxtCompra";
-            this.TxtCompra.PasswordChar = '\0';
-            this.TxtCompra.SelectedText = "";
-            this.TxtCompra.SelectionLength = 0;
-            this.TxtCompra.SelectionStart = 0;
-            this.TxtCompra.Size = new System.Drawing.Size(184, 23);
-            this.TxtCompra.TabIndex = 3;
-            this.TxtCompra.TabStop = false;
-            this.TxtCompra.UseSystemPasswordChar = false;
+            this.TxtSexo.Depth = 0;
+            this.TxtSexo.Hint = "Sexo";
+            this.TxtSexo.Location = new System.Drawing.Point(20, 117);
+            this.TxtSexo.MaxLength = 32767;
+            this.TxtSexo.MouseState = MaterialSkin.MouseState.HOVER;
+            this.TxtSexo.Name = "TxtSexo";
+            this.TxtSexo.PasswordChar = '\0';
+            this.TxtSexo.SelectedText = "";
+            this.TxtSexo.SelectionLength = 0;
+            this.TxtSexo.SelectionStart = 0;
+            this.TxtSexo.Size = new System.Drawing.Size(184, 23);
+            this.TxtSexo.TabIndex = 3;
+            this.TxtSexo.TabStop = false;
+            this.TxtSexo.UseSystemPasswordChar = false;
             // 
             // BtnEliminar
             // 
@@ -358,9 +358,9 @@
 
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private System.Windows.Forms.Panel Categoria;
-        private MaterialSkin.Controls.MaterialSingleLineTextField TxtProductos;
+        private MaterialSkin.Controls.MaterialSingleLineTextField TxtEmpleado;
         private MaterialSkin.Controls.MaterialSingleLineTextField TxtCodigo;
-        private MaterialSkin.Controls.MaterialSingleLineTextField TxtCompra;
+        private MaterialSkin.Controls.MaterialSingleLineTextField TxtSexo;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
